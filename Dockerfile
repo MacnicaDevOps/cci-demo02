@@ -1,1 +1,3 @@
-From nginx:1.12
+From nginx:latest
+RUN adduser macnica
+USER macnica
