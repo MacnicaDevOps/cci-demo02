@@ -1,2 +1,3 @@
 From nginx:latest
-#RUN apt-get update && apt-get install -y curl
+RUN adduser devops
+USER devops
