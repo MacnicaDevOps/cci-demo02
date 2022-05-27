@@ -1,3 +1,3 @@
-From nginx:latest
+From nginx:stable
 RUN adduser macnica
 USER macnica
